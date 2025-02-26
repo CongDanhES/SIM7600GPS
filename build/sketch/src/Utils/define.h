@@ -12,5 +12,5 @@ HardwareSerial Sim7600_port(SIM7600_PORT);
 HardwareSerial Debug_port(DEBUG_PORT);
 
 #include "src/SIM7600/Sim7600.hpp"
-SIM7600 sim7600;
+SIM7600 sim7600(&Sim7600_port);
 #endif // DEFINE_H
